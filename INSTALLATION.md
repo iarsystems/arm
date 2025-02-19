@@ -16,7 +16,7 @@ sha256sum --check cxarm-<version>-linux-x86_64-<variant>.tar.bz2.sha256
 ```
 ```bash
 # Extract the archive
-sudo bzip2 -dk cxarm-<version>-linux-x86_64-<variant>.tar.bz2 /
+sudo tar -xf cxarm-<version>-linux-x86_64-<variant>.tar.bz2 /
 ```
 ## Device support installation (optional)
 Vendor-specific device support packages are provided as optional separated archives. One or more of these can be downloaded and then extracted on top of a base installation using the same procedure as described for the build tools.
