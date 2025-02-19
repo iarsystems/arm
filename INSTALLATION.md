@@ -1,5 +1,5 @@
 # IAR Build Tools installation
-The tools comes as compressed archives where the actual build tools are separated from the device support files. There are two variants of build tools archives:
+The tools come as compressed archives where the actual build tools are separated from the device support files. There are two variants of build tools archives:
 - **base**: Full set of files including documentation, C-STAT, Iarbuild, and C-SPY drivers
 - **minimal**: Build tools and runtime libraries only
 
