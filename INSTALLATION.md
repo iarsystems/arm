@@ -20,3 +20,9 @@ sudo tar -xf cxarm-<version>-linux-x86_64-<variant>.tar.bz2 /
 ```
 ## Device support installation (optional)
 Vendor-specific device support packages are provided as optional separated archives. One or more of these can be downloaded and then extracted on top of a base installation using the same procedure as described for the build tools.
+
+## Activating a license
+In possession of the authentication token string, the following environment variable must be set:
+```bash
+export IAR_LMS_BEARER_TOKEN=<token-string>
+```
