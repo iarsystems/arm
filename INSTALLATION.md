@@ -1,10 +1,10 @@
 # IAR Build Tools installation
-The tools come as compressed archives where the actual build tools are separated from the device support files. There are two variants of build tools archives:
+The tools come as compressed archives (```.tar.bz2``` for Linux and ```.zip``` for Windows) where the actual build tools are separated from the device support files. There are two variants of build tools archives:
 - **base**: Full set of files including documentation, C-STAT, Iarbuild, and C-SPY drivers
 - **minimal**: Build tools and runtime libraries only
 
 ## Build tools installation (required)
-<b>Note:</b> The command line ```<version>``` entry needs to be changed to the version you are using and ```<variant>``` is either "base" or "minimal".
+<b>Note:</b> The following command line examples are for the Linux ```.tar.bz2``` files. The ```<version>``` entry needs to be changed to the version you are using and ```<variant>``` is either "base" or "minimal". 
 ```bash
 # Download the package and SHA256 checksum hash
 curl -O https://github.com/iarsystems/arm/releases/download/<version>/cxarm-<version>-linux-x86_64-<variant>.tar.bz2
@@ -22,7 +22,13 @@ sudo tar -xf cxarm-<version>-linux-x86_64-<variant>.tar.bz2 /
 Vendor-specific device support packages are provided as optional separated archives. One or more of these can be downloaded and then extracted on top of a base installation using the same procedure as described for the build tools.
 
 ## Activating a license
-In possession of the authentication token string, the following environment variable must be set:
+In possession of the authentication token string, the following environment variable must be set.
+
+Windows:
+```bash
+set IAR_LMS_BEARER_TOKEN=<token-string>
+```
+Linux:
 ```bash
 export IAR_LMS_BEARER_TOKEN=<token-string>
 ```
