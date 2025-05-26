@@ -5,7 +5,7 @@ Before starting to download the archives, it is important to understand which fi
 The tables below breaks down the contents from each offered archive in the [Releases](https://github.com/iarsystems/arm/releases/latest) page.
 
 
-## Installing the IAR Build Tools (required)
+## IAR Build Tools installation (required)
 
 | Asset | Essentials[^1] | IAR Build | IAR C-STAT | IAR C-SPY
 | - | - | - | - | -
@@ -41,7 +41,7 @@ The token is provided by the [IAR Customer Support](https://iar.my.site.com/mypa
 | Command Prompt | ```set IAR_LMS_BEARER_TOKEN=<token-string>```
 | Powershell | ```[System.Environment]::SetEnvironmentVariable("IAR_LMS_BEARER_TOKEN", "<token-string>", "Machine")```
 
-## Installing device support (optional)
-Vendor-specific device support packages are provided separatedly, as optional archives. One or more of these can be installed on top of a base installation, using the same procedure as descibed for the build tools.
+## Device support installation (optional)
+Vendor-specific device support packages are provided separately, as optional archives. One or more of these can be installed on top of a base installation, using the same procedure as described for the build tools.
 
 [^1]: __Essentials__ include IAR Assembler, IAR C/C++ Compiler, IAR ILINK Linker and, Runtime Libraries.
