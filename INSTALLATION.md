@@ -44,4 +44,7 @@ The token is provided by the [IAR Customer Support](https://iar.my.site.com/mypa
 ## Device support installation (optional)
 Vendor-specific device support packages are provided separately, as optional archives. One or more of these can be installed on top of a base installation, using the same procedure as described for the build tools.
 
+>[!NOTE]
+>- The IAR Command Line Build Utility (`iarbuild.exe`) and the IAR C-SPY Command Line Utility (`CSpyBat.exe`) require the installation of the [Latest supported Visual C++ Runtime Redistributable packages](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist).
+
 [^1]: __Essentials__ include IAR Assembler, IAR C/C++ Compiler, IAR ILINK Linker and, Runtime Libraries.
