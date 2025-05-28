@@ -1,4 +1,4 @@
-# IAR Build Tools Installing Guide
+# IAR Build Tools Installation Guide
 
 Before starting to download the archives, it is important to understand which files you need.
 
@@ -30,6 +30,9 @@ sha256sum --check cxarm-<version>-linux-x86_64-<variant>.tar.bz2.sha256
 tar -xf cxarm-<version>-linux-x86_64-<variant>.tar.bz2
 ```
 
+>[!NOTE]
+>- The IAR Command Line Build Utility (`iarbuild.exe`) and the IAR C-SPY Command Line Utility (`CSpyBat.exe`) require the installation of the [Latest supported Visual C++ Runtime Redistributable packages](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist).
+
 ### IAR Build Tools activation
 The IAR Build Tools requires a valid activation token for operation. When the tools are used, the token authenticates the subscriber to the IAR Cloud License Service using a `https` connection (`tcp/443`).
 
@@ -40,6 +43,7 @@ The token is provided by the [IAR Customer Support](https://iar.my.site.com/mypa
 | Bash | ```export IAR_LMS_BEARER_TOKEN=<token-string>```
 | Command Prompt | ```set IAR_LMS_BEARER_TOKEN=<token-string>```
 | Powershell | ```[System.Environment]::SetEnvironmentVariable("IAR_LMS_BEARER_TOKEN", "<token-string>", "Machine")```
+
 
 ## Device support installation (optional)
 Vendor-specific device support packages are provided separately, as optional archives. One or more of these can be installed on top of a base installation, using the same procedure as described for the build tools.
