@@ -1,4 +1,4 @@
-# Installation Guide
+# IAR Build Tools Installation Guide
 
 Before starting to download the archives, it is important to understand which files you need.
 
