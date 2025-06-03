@@ -7,7 +7,7 @@ From a CI/CD perspective, the IAR Build Tools[^1] come with everything you need 
 The [Releases](https://github.com/iarsystems/arm/releases) assets include compressed archives with the IAR Build Tools, for Linux and Windows environments, alongside their respective device support archives.
 
 >[!NOTE]
->IAR subscribers[^1] can download the full set of installers directly from [IAR MyPages](https://mypages.iar.com/).
+>IAR subscribers[^1] can download the full set of installers directly from [IAR MyPages](https://mypages.iar.com/). Trials can be applied for [here](https://www.iar.com/try-platform).
 
 ## Installation
 See the [Installation](INSTALLATION.md) page for details.
